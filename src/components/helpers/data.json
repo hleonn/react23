@@ -1,0 +1,88 @@
+{
+  "frameworks":[
+    {
+      "id":1,
+      "name":"React",
+      "web":"https://reactjs.org"
+    },
+
+    {
+      "id":2,
+      "name":"Angular",
+      "web":"https://angular.io"
+    },
+
+    {
+      "id":3,
+      "name":"Vue",
+      "web":"https://vuejs.org"
+    },
+
+    {
+      "id":4,
+      "name":"Polymer",
+      "web":"https://www.polymer-project.org/"
+    },
+
+    {
+      "id":5,
+      "name":"Svelte",
+      "web":"https://svelte.dev"
+    },
+    {
+      "id":6,
+      "name":"🐍Curso PYTHON🐍",
+      "web":"https://github.com/mouredev/Hello-Python"
+    },
+    {
+      "id":7,
+      "name":"🔥React Bits🔥",
+      "web":"https://github.com/vasanthk/react-bits"
+    },
+    {
+      "id":8,
+      "name":"🔥React Atomic Design🔥",
+      "web":"https://github.com/danilowoz/react-atomic-design"
+    },
+    {
+      "id":9,
+      "name":"🔥React Patterns🔥",
+      "web":"https://github.com/reactpatterns/reactpatterns"
+    },
+    {
+      "id":10,
+      "name":"🔥Awesome React🔥",
+      "web":"https://github.com/enaqx/awesome-react"
+    },
+    {
+      "id":11,
+      "name":"🔥React Typescript Cheatsheet🔥",
+      "web":"https://github.com/typescript-cheatsheets/react"
+    },
+    {
+      "id":12,
+      "name":"🔥Beautiful React Hooks🔥",
+      "web":"https://github.com/antonioru/beautiful-react-hooks"
+    },
+    {
+      "id":13,
+      "name":"🔥Primer React🔥",
+      "web":"https://github.com/primer/react"
+    },
+    {
+      "id":14,
+      "name":"🔥React HackYourFuture🔥",
+      "web":"https://github.com/HackYourFuture/React"
+    },
+    {
+      "id":15,
+      "name":"🔥React🔥",
+      "web":"https://github.com/reactjs/reactjs.org"
+    },
+    {
+      "id":16,
+      "name":"🔥React Boilerplate🔥",
+      "web":"https://github.com/react-boilerplate/react-boilerplate"
+    }
+  ]
+}
