@@ -1,0 +1,52 @@
+import React, { Component } from 'react';
+
+function EstadoAHijo(props){
+  return(
+    <div>
+      <h3>{props.contadorHijo}</h3>
+    </div>
+  );
+}
+
+function EstadoBHijo(props){
+  return(
+    <div>
+      <h3>{props.contadorHijo}</h3>
+    </div>
+  );
+}
+
+function EstadoCHijo(props){
+  return(
+    <div>
+      <h3>{props.contadorHijo}</h3>
+    </div>
+  );
+}
+
+export default class Estado extends Component{
+  constructor(props){
+    super(props);
+    this.state={
+      contador:0
+    };
+    //Forma correcta de actualizar el estado
+    /* setInterval(()=>{
+      this.setState({
+        contador:this.state.contador + 1//put 1
+      })
+    },1000); */
+  }
+  
+  render(){
+    return(
+      <div>
+<h2>The State</h2>
+<p>{this.state.contador}</p>
+<EstadoAHijo contadorHijo = {this.state.contador} />
+<EstadoBHijo contadorHijo = {this.state.contador} />
+<EstadoCHijo contadorHijo = {this.state.contador} />
+      </div>
+    );
+  }
+}
