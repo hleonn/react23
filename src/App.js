@@ -5,6 +5,7 @@ import Estado from "./components/Estado.jsx";
 import RenderizadoCondicional from "./components/RenderizadoCondicional.jsx";
 import RenderizadoElementos from "./components/RenderizadoElementos.jsx";
 import {EventosES6, EventosES7, MasSobreEventos} from "./components/Eventos.jsx";
+import ComunicacionComponentes from "./components/ComunicacionComponentes.jsx"
 import logo from './logo.svg';
 import './App.css';
 
@@ -51,6 +52,12 @@ function App() {
         <EventosES7/>
         <hr></hr>
         <MasSobreEventos/>
+        <hr></hr>
+        <ComunicacionComponentes/>
+        <hr></hr>
+
+        <hr></hr>
+
         <hr></hr>    
       </section>
       </header>
