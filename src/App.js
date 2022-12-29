@@ -4,7 +4,7 @@ import Propiedades from "./components/Propiedades.jsx";
 import Estado from "./components/Estado.jsx";
 import RenderizadoCondicional from "./components/RenderizadoCondicional.jsx";
 import RenderizadoElementos from "./components/RenderizadoElementos.jsx";
-import Eventos from "./components/Eventos.jsx";
+import {EventosES6, EventosES7} from "./components/Eventos.jsx";
 import logo from './logo.svg';
 import './App.css';
 
@@ -46,10 +46,12 @@ function App() {
         <hr></hr>
         <RenderizadoElementos/>
         <hr></hr> 
-        <Eventos/>
+        <EventosES6/>
+        <hr></hr>
+        <EventosES7/>
         <hr></hr>
         
-        <hr></hr>  
+        <hr></hr>    
       </section>
       </header>
       
