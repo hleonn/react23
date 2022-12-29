@@ -11,14 +11,14 @@ export class EventosES6 extends Component{
   }
 
 sumar(e){
-console.log("sumando");
-console.log(this);
+//console.log("sumando");
+//console.log(this);
 this.setState({contador:this.state.contador+1,})
 }
 
 restar(e){
-console.log("restando");
-console.log(this);
+//console.log("restando");
+//console.log(this);
  this.setState({contador:this.state.contador-1,})
 }
   render(){
@@ -46,14 +46,14 @@ export class EventosES7 extends Component{
 //Arrow functions  
 
 sumar=(e) => {
-console.log("sumando");
-console.log(this);
+//console.log("sumando");
+//console.log(this);
 this.setState({contador:this.state.contador+1,})
 }
 
 restar=(e)=>{
-console.log("restando");
-console.log(this);
+//console.log("restando");
+//console.log(this);
  this.setState({contador:this.state.contador-1,})
 }
   render(){
@@ -89,7 +89,7 @@ export class MasSobreEventos extends Component{
     //console.log(e.nativeEvent);
     //console.log(e.target);
     //console.log(e.nativeEvent.target);
-    console.log(mensaje);
+    //console.log(mensaje);
   }
   render(){
     return(
