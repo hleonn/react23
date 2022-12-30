@@ -5,7 +5,7 @@ class Reloj extends Component{
     super(props);
   }
   componentWillUnmount(){
-    console.log(3,"el componente ha sido eliminado del DOM");
+    //console.log(3,"el componente ha sido eliminado del DOM");
   }
   render(){
     return <h3>{this.props.hora}</h3>;//this.props
@@ -16,7 +16,7 @@ export default class CicloVida extends Component{
   
   constructor(props){
     super(props);
-    console.log(0,"El componente se inicializa, aún NO está en el DOM")
+    //console.log(0,"El componente se inicializa, aún NO está en el DOM")
     this.state={
       hora:new Date().toLocaleTimeString(),
       visible:false,
@@ -24,12 +24,12 @@ export default class CicloVida extends Component{
     this.temporizador=null;
   }
 componentDidMount(){
-  console.log(1,"El componente se encuentra en el DOM");
+  //console.log(1,"El componente se encuentra en el DOM");
 }
 componentDidUpdate(prevProps,prevState){
-  console.log(2,"El estado o las props del componente han cambiado");
-  console.log(prevProps);//{}
-  console.log(prevState);//{hora:'5:14:49'}
+  //console.log(2,"El estado o las props del componente han cambiado");
+  //console.log(prevProps);//{}
+  //console.log(prevState);//{hora:'5:14:49'}
 }
 
 
@@ -53,7 +53,7 @@ clearInterval(this.temporizador);
   }
   
   render(){
-    console.log(4,"El componente se dibuja o redibuja por algun cambio en el DOM")
+    //console.log(4,"El componente se dibuja o redibuja por algun cambio en el DOM")
     return(
     <div>
       <h2>Ciclo de Vida de los componentes de clase</h2>
