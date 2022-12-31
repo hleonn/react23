@@ -9,6 +9,7 @@ import ComunicacionComponentes from "./components/ComunicacionComponentes.jsx"
 import CicloVida from "./components/CicloVida.jsx"
 import AjaxApis from "./components/AjaxApis.jsx"
 import ContadorHooks from "./components/ContadorHooks.jsx"
+import ScrollHooks from "./components/ScrollHooks"
 import logo from './logo.svg';
 import './App.css';
 
@@ -64,7 +65,8 @@ function App() {
         <hr></hr>
         <ContadorHooks></ContadorHooks>
         <hr></hr>
-            
+        <ScrollHooks></ScrollHooks> 
+        <hr></hr>   
       </section>
       </header>
       
