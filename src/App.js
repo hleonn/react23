@@ -12,6 +12,7 @@ import ContadorHooks from "./components/ContadorHooks.jsx"
 /* import ScrollHooks from "./components/ScrollHooks" */
 import RelojHooks from "./components/RelojHooks.jsx" 
 import AjaxHooks from "./components/AjaxHooks.jsx"
+import HooksPersonalizados from "./components/HooksPersonalizados.jsx"
 import logo from './logo.svg';
 import './App.css';
 
@@ -73,7 +74,8 @@ function App() {
         <hr></hr>
         <AjaxHooks></AjaxHooks>
         <hr></hr>
-
+        <HooksPersonalizados></HooksPersonalizados>
+        <hr></hr>
       </section>
       </header>
       
