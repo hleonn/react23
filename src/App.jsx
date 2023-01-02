@@ -18,6 +18,7 @@ import Formularios from "./components/Formularios"
 import Estilos from "./components/Estilos.jsx"
 import logo from './logo.svg';
 import './App.css';
+import ComponentesEstilizados from './components/ComponentesEstilizados';
 
 function App() {
   return (
@@ -84,6 +85,8 @@ function App() {
         <Formularios></Formularios>
         <hr></hr>
         <Estilos></Estilos>
+        <hr></hr>
+        <ComponentesEstilizados></ComponentesEstilizados>
         <hr></hr>
       </section>
       </header>
