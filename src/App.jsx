@@ -1,20 +1,21 @@
 import React from 'react';
-import Componente from "./components/Componente.jsx";
-import Propiedades from "./components/Propiedades.jsx";
-import Estado from "./components/Estado.jsx";
-import RenderizadoCondicional from "./components/RenderizadoCondicional.jsx";
-import RenderizadoElementos from "./components/RenderizadoElementos.jsx";
-import {EventosES6, EventosES7, MasSobreEventos} from "./components/Eventos.jsx";
-import ComunicacionComponentes from "./components/ComunicacionComponentes.jsx"
-import CicloVida from "./components/CicloVida.jsx"
+import Componente from "./components/Componente";
+import Propiedades from "./components/Propiedades";
+import Estado from "./components/Estado";
+import RenderizadoCondicional from "./components/RenderizadoCondicional";
+import RenderizadoElementos from "./components/RenderizadoElementos";
+import {EventosES6, EventosES7, MasSobreEventos} from "./components/Eventos";
+import ComunicacionComponentes from "./components/ComunicacionComponentes"
+import CicloVida from "./components/CicloVida"
 /* import AjaxApis from "./components/AjaxApis.jsx" */
-import ContadorHooks from "./components/ContadorHooks.jsx"
+import ContadorHooks from "./components/ContadorHooks"
 /* import ScrollHooks from "./components/ScrollHooks" */
-import RelojHooks from "./components/RelojHooks.jsx" 
-import AjaxHooks from "./components/AjaxHooks.jsx"
-import HooksPersonalizados from "./components/HooksPersonalizados.jsx"
-import Referencias from "./components/Referencias.jsx"
-import Formularios from "./components/Formularios.jsx"
+import RelojHooks from "./components/RelojHooks" 
+import AjaxHooks from "./components/AjaxHooks"
+import HooksPersonalizados from "./components/HooksPersonalizados"
+import Referencias from "./components/Referencias"
+import Formularios from "./components/Formularios"
+import Estilos from "./components/Estilos.jsx"
 import logo from './logo.svg';
 import './App.css';
 
@@ -81,6 +82,8 @@ function App() {
         <Referencias></Referencias>
         <hr></hr>
         <Formularios></Formularios>
+        <hr></hr>
+        <Estilos></Estilos>
         <hr></hr>
       </section>
       </header>
